@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: gray;
+    margin: 30px 0px ;
+}
+.contact,.compose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+textarea{
+    min-width: 500px;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+    min-height: 200px;
+}
+.buttons , .articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.button{
+    margin: 0px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(250, 6, 46);
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.article-item{
+    min-width: 400px;
+    max-width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 80px 20px ;
+    position: relative;
+}
+.comose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 20Px;
+}
+.p-1{
+    color: gray;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.p-2{
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.title-1{
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.button-1{
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.mrg{
+    margin: 10px 20px -10px 20px ;
+}
