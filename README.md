@@ -8,7 +8,7 @@ the aim of this projects is to make in practice nodejs expressjs ejs mongodb ...
 ### 🖥️ Installing : 
 
 ```bash
-$ git clone https://github.com/attia-nabil/libft.git
+$ git clone  https://github.com/Abdelmounaimhmamed/Blog-nodejs-express-mongodb.git
 $ cd Blog-nodejs-express-mongodb ;
 $ npm  i 
 ```
@@ -19,7 +19,7 @@ this will install all packages and dependencies to start runing this app . <br>
 
 
 ```bash
-$ node app.js
+$ npm run start 
 ```
 
 -- open your browser and type localhost:3000
